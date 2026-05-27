@@ -67,83 +67,83 @@ Products added during the 2026-05-27 gap research (AgentGuard, AWS Secrets Manag
 
 ## Products
 
-Vaults, proxies, identity layers, and credential gateways. Alphabetical.
+Vaults, proxies, identity layers, and credential gateways. Alphabetical. Entry name links to the upstream project; `(details)` opens our notes.
 
-- [1Password CLI](products/1password-cli/) · `op run` substitutes `op://` secret references into a process environment at startup. Closed source, Go binary.
-- [AgentGuard](products/agentguard/) · Runtime guardrail layer for agents: data loss path blocking, secret scrubbing, skill trust registry.
-- [Authsome](products/authsome/) · Local OAuth2 and API-key vault. The agent never sees raw credentials. MIT, Python.
-- [AWS Secrets Manager](products/aws-secrets-manager/) · IAM-scoped managed secret store with rotation. Proprietary.
-- [AWS Secrets Manager Agent](products/aws-secretsmanager-agent/) · Official AWS sidecar exposing Secrets Manager over loopback. Apache 2.0, Rust.
-- [Bitwarden Agent Access](products/bitwarden-agent-access/) · Open protocol for per-request human approval against a Bitwarden vault. Apache 2.0, Rust.
-- [Botiverse agent-vault](products/botiverse-agent-vault/) · Local proxy that keeps secrets out of chat-agent context. Apache 2.0, TypeScript.
-- [Composio](products/composio/) · Toolkit platform with 1000+ integrations and managed OAuth for agent frameworks. Apache 2.0.
-- [DeepSecure](products/deepsecure/) · Identity, credential, and access management for AI agents and MCP servers.
-- [Doppler](products/doppler/) · CLI that injects a project's secrets into a wrapped process. Apache 2.0, Go.
-- [earl](products/earl/) · Rust CLI proxy with HCL operation templates, OS keychain secrets, MCP integration.
-- [faramesh-core](products/faramesh-core/) · Governance-as-Code library for agent credential brokering.
-- [hasp](products/hasp/) · Local-first broker for managed secrets in agent workflows. Go.
-- [HashiCorp Vault](products/hashicorp-vault/) · General secrets platform with Vault Agent sidecars and an AI-agent-identity validated pattern. BUSL 1.1, Go.
-- [Infisical Agent Vault](products/infisical-agent-vault/) · HTTPS proxy that swaps placeholder tokens for real credentials at the network layer. Source-available, Go.
-- [jentic-mini](products/jentic-mini/) · Self-hosted API execution layer that injects credentials between agent and external APIs.
-- [Keeper Agent Kit](products/keeper-agent-kit/) · Skill bundle wrapping Keeper Secrets Manager for coding agents. Apache 2.0, Shell.
-- [Kontext CLI](products/kontext-cli/) · Wraps coding agents with RFC 8693 token-exchanged short-lived credentials. MIT, Go.
-- [LiteLLM Agent Platform](products/litellm-agent-platform/) · Self-hosted platform running coding agents in isolated sandboxes with a vault proxy. MIT, TypeScript.
-- [mcp-governance-sdk](products/mcp-governance-sdk/) · Enterprise governance layer (identity, RBAC, credentials, audit) for the MCP SDK.
-- [mcp-secrets-plugin](products/mcp-secrets-plugin/) · OS-keychain credential management for MCP servers.
-- [onecli](products/onecli/) · Single-binary credential gateway with a built-in vault for AI agents. Apache 2.0, TypeScript.
-- [psst](products/psst/) · AI-native secrets manager using the OS keychain and a token-substitution model.
-- [Pulumi ESC](products/pulumi-esc/) · Environments, secrets, and configuration service that composes secrets from many backends. Apache 2.0, Go.
-- [sigcli](products/sigcli/) · Auth CLI and proxy for AI agents: "give agents access, not your credentials."
-- [SOPS](products/sops/) · Encrypts files in place with KMS, age, or PGP. MPL 2.0, Go.
-- [Wirken](products/wirken/) · Single-binary switchboard with encrypted vault, per-channel isolation, and hash-chained audit log. MIT, Rust.
-- [zeroid](products/zeroid/) · Autonomous Agent Identity Management System using RFC 8693 token exchange and SPIFFE.
+- [1Password CLI](https://developer.1password.com/docs/cli/) · `op run` substitutes `op://` secret references into a process environment at startup. Closed source, Go binary. ([details](products/1password-cli/))
+- [AgentGuard](https://github.com/GoPlusSecurity/agentguard) · Runtime guardrail layer for agents: data loss path blocking, secret scrubbing, skill trust registry. ([details](products/agentguard/))
+- [Authsome](https://github.com/agentrhq/authsome) · Local OAuth2 and API-key vault. The agent never sees raw credentials. MIT, Python. ([details](products/authsome/))
+- [AWS Secrets Manager](https://docs.aws.amazon.com/secretsmanager/) · IAM-scoped managed secret store with rotation. Proprietary. ([details](products/aws-secrets-manager/))
+- [AWS Secrets Manager Agent](https://github.com/aws/aws-secretsmanager-agent) · Official AWS sidecar exposing Secrets Manager over loopback. Apache 2.0, Rust. ([details](products/aws-secretsmanager-agent/))
+- [Bitwarden Agent Access](https://github.com/bitwarden/agent-access) · Open protocol for per-request human approval against a Bitwarden vault. Apache 2.0, Rust. ([details](products/bitwarden-agent-access/))
+- [Botiverse agent-vault](https://github.com/botiverse/agent-vault) · Local proxy that keeps secrets out of chat-agent context. Apache 2.0, TypeScript. ([details](products/botiverse-agent-vault/))
+- [Composio](https://github.com/ComposioHQ/composio) · Toolkit platform with 1000+ integrations and managed OAuth for agent frameworks. Apache 2.0. ([details](products/composio/))
+- [DeepSecure](https://github.com/DeepTrail/deepsecure) · Identity, credential, and access management for AI agents and MCP servers. ([details](products/deepsecure/))
+- [Doppler](https://github.com/DopplerHQ/cli) · CLI that injects a project's secrets into a wrapped process. Apache 2.0, Go. ([details](products/doppler/))
+- [earl](https://github.com/mathematic-inc/earl) · Rust CLI proxy with HCL operation templates, OS keychain secrets, MCP integration. ([details](products/earl/))
+- [faramesh-core](https://github.com/faramesh/faramesh-core) · Governance-as-Code library for agent credential brokering. ([details](products/faramesh-core/))
+- [hasp](https://github.com/gethasp/hasp) · Local-first broker for managed secrets in agent workflows. Go. ([details](products/hasp/))
+- [HashiCorp Vault](https://github.com/hashicorp/vault) · General secrets platform with Vault Agent sidecars and an AI-agent-identity validated pattern. BUSL 1.1, Go. ([details](products/hashicorp-vault/))
+- [Infisical Agent Vault](https://github.com/Infisical/agent-vault) · HTTPS proxy that swaps placeholder tokens for real credentials at the network layer. Source-available, Go. ([details](products/infisical-agent-vault/))
+- [jentic-mini](https://github.com/jentic/jentic-mini) · Self-hosted API execution layer that injects credentials between agent and external APIs. ([details](products/jentic-mini/))
+- [Keeper Agent Kit](https://github.com/Keeper-Security/keeper-agent-kit) · Skill bundle wrapping Keeper Secrets Manager for coding agents. Apache 2.0, Shell. ([details](products/keeper-agent-kit/))
+- [Kontext CLI](https://github.com/kontext-security/kontext-cli) · Wraps coding agents with RFC 8693 token-exchanged short-lived credentials. MIT, Go. ([details](products/kontext-cli/))
+- [LiteLLM Agent Platform](https://github.com/BerriAI/litellm-agent-platform) · Self-hosted platform running coding agents in isolated sandboxes with a vault proxy. MIT, TypeScript. ([details](products/litellm-agent-platform/))
+- [mcp-governance-sdk](https://github.com/ithena-one/mcp-governance-sdk) · Enterprise governance layer (identity, RBAC, credentials, audit) for the MCP SDK. ([details](products/mcp-governance-sdk/))
+- [mcp-secrets-plugin](https://github.com/amirshk/mcp-secrets-plugin) · OS-keychain credential management for MCP servers. ([details](products/mcp-secrets-plugin/))
+- [onecli](https://github.com/onecli/onecli) · Single-binary credential gateway with a built-in vault for AI agents. Apache 2.0, TypeScript. ([details](products/onecli/))
+- [psst](https://github.com/Michaelliv/psst) · AI-native secrets manager using the OS keychain and a token-substitution model. ([details](products/psst/))
+- [Pulumi ESC](https://github.com/pulumi/esc) · Environments, secrets, and configuration service that composes secrets from many backends. Apache 2.0, Go. ([details](products/pulumi-esc/))
+- [sigcli](https://github.com/sigcli/sigcli) · Auth CLI and proxy for AI agents: "give agents access, not your credentials." ([details](products/sigcli/))
+- [SOPS](https://github.com/getsops/sops) · Encrypts files in place with KMS, age, or PGP. MPL 2.0, Go. ([details](products/sops/))
+- [Wirken](https://github.com/gebruder/wirken) · Single-binary switchboard with encrypted vault, per-channel isolation, and hash-chained audit log. MIT, Rust. ([details](products/wirken/))
+- [zeroid](https://github.com/highflame-ai/zeroid) · Autonomous Agent Identity Management System using RFC 8693 token exchange and SPIFFE. ([details](products/zeroid/))
 
 ## Integrations
 
-How each agent platform consumes credentials today. Alphabetical.
+How each agent platform consumes credentials today. Alphabetical. Entry name links to the upstream project; `(details)` opens our notes.
 
-- [Aider](integrations/aider/) · `.env` and `.aider.conf.yml`. Ad hoc, env vars only.
-- [AutoGen](integrations/autogen/) · Model client config plus tool env vars; conductor pattern inherits credentials across spawned agents.
-- [Claude Code](integrations/claude-code/) · `settings.json` env, MCP `env` per server, pre/post-tool-use hooks, skills.
-- [Cline](integrations/cline/) · VS Code extension settings, MCP config, inherited env. No first-party broker.
-- [Codex CLI](integrations/codex/) · `~/.codex/config.toml`, per-provider `env_key`, optional OS keyring.
-- [Continue.dev](integrations/continue-dev/) · `config.yaml` with `${{ secrets.NAME }}` resolved from `.env`, workspace `.env`, or Mission Control hub.
-- [CrewAI](integrations/crewai/) · Tool constructors accept credentials at init time. Common pairing with Composio.
-- [Cursor](integrations/cursor/) · `~/.cursor/mcp.json` with `${env:VAR}` interpolation. Remote-header interpolation broken.
-- [Goose](integrations/goose/) · `~/.config/goose/config.yaml` plus per-extension env vars.
-- [LangChain](integrations/langchain/) · `secret_from_env` returns `SecretStr` for log scrubbing.
-- [LangGraph](integrations/langgraph/) · `RunnableConfig["configurable"]` plus the `Auth` handler for per-request secret resolution.
-- [Mastra](integrations/mastra/) · `mastra server env import` (mode 0600); pluggable auth providers.
-- [OpenAI Agents SDK](integrations/openai-agents-sdk/) · Lazy-read `OPENAI_API_KEY`, `set_default_openai_key`. Third-party tool creds are ad hoc.
-- [OpenHands](integrations/openhands/) · Sandboxed container runtime; egress proxy is a natural injection point.
-- [Pydantic AI](integrations/pydantic-ai/) · Provider env vars; Pydantic `SecretStr` scrubs logs.
-- [Vercel AI SDK](integrations/vercel-ai-sdk/) · `process.env` inside `tool({ execute })`, Sensitive env vars, AI Gateway OIDC.
-- [Windsurf](integrations/windsurf/) · `mcp_config.json` with `${env:VAR}` interpolation across `command`/`args`/`env`/`headers`/`url`.
+- [Aider](https://aider.chat) · `.env` and `.aider.conf.yml`. Ad hoc, env vars only. ([details](integrations/aider/))
+- [AutoGen](https://github.com/microsoft/autogen) · Model client config plus tool env vars; conductor pattern inherits credentials across spawned agents. ([details](integrations/autogen/))
+- [Claude Code](https://code.claude.com/docs/en/settings) · `settings.json` env, MCP `env` per server, pre/post-tool-use hooks, skills. ([details](integrations/claude-code/))
+- [Cline](https://github.com/cline/cline) · VS Code extension settings, MCP config, inherited env. No first-party broker. ([details](integrations/cline/))
+- [Codex CLI](https://developers.openai.com/codex/config-reference) · `~/.codex/config.toml`, per-provider `env_key`, optional OS keyring. ([details](integrations/codex/))
+- [Continue.dev](https://docs.continue.dev/reference) · `config.yaml` with `${{ secrets.NAME }}` resolved from `.env`, workspace `.env`, or Mission Control hub. ([details](integrations/continue-dev/))
+- [CrewAI](https://github.com/crewAIInc/crewAI) · Tool constructors accept credentials at init time. Common pairing with Composio. ([details](integrations/crewai/))
+- [Cursor](https://docs.cursor.com/context/model-context-protocol) · `~/.cursor/mcp.json` with `${env:VAR}` interpolation. Remote-header interpolation broken. ([details](integrations/cursor/))
+- [Goose](https://github.com/block/goose) · `~/.config/goose/config.yaml` plus per-extension env vars. ([details](integrations/goose/))
+- [LangChain](https://python.langchain.com/api_reference/core/utils/langchain_core.utils.utils.secret_from_env.html) · `secret_from_env` returns `SecretStr` for log scrubbing. ([details](integrations/langchain/))
+- [LangGraph](https://docs.langchain.com/langgraph-platform/custom-auth) · `RunnableConfig["configurable"]` plus the `Auth` handler for per-request secret resolution. ([details](integrations/langgraph/))
+- [Mastra](https://mastra.ai/reference/configuration) · `mastra server env import` (mode 0600); pluggable auth providers. ([details](integrations/mastra/))
+- [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/config/) · Lazy-read `OPENAI_API_KEY`, `set_default_openai_key`. Third-party tool creds are ad hoc. ([details](integrations/openai-agents-sdk/))
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands) · Sandboxed container runtime; egress proxy is a natural injection point. ([details](integrations/openhands/))
+- [Pydantic AI](https://ai.pydantic.dev) · Provider env vars; Pydantic `SecretStr` scrubs logs. ([details](integrations/pydantic-ai/))
+- [Vercel AI SDK](https://vercel.com/docs/ai-gateway/authentication-and-byok) · `process.env` inside `tool({ execute })`, Sensitive env vars, AI Gateway OIDC. ([details](integrations/vercel-ai-sdk/))
+- [Windsurf](https://docs.windsurf.com/windsurf/cascade/mcp) · `mcp_config.json` with `${env:VAR}` interpolation across `command`/`args`/`env`/`headers`/`url`. ([details](integrations/windsurf/))
 
 ## Services
 
-Per-third-party-API credential recipes. Alphabetical.
+Per-third-party-API credential recipes. Alphabetical. Entry name links to the canonical credential docs; `(recipe)` opens our agent-specific notes.
 
-- [Anthropic](services/anthropic/) · Workspace-scoped keys, admin keys held separately.
-- [Cal.com](services/cal-com/) · OAuth client + managed-user access tokens (60m) and refresh (1y).
-- [Cloudflare](services/cloudflare/) · API tokens with permission group, resource, IP, and TTL filters.
-- [GitHub](services/github/) · GitHub App installation tokens (1h, repo-scoped).
-- [HubSpot](services/hubspot/) · Private apps with minimum CRM scopes.
-- [Linear](services/linear/) · OAuth with actor authorization for revocable, attributed writes.
-- [Mailgun](services/mailgun/) · Domain sending keys bound to one verified domain.
-- [Notion](services/notion/) · Public OAuth integration with rotating refresh tokens.
-- [OpenAI](services/openai/) · Project-scoped service account keys with Restricted permissions.
-- [Pinecone](services/pinecone/) · Project-scoped API keys (granular roles require Standard+).
-- [Plaid](services/plaid/) · Per-user Item access tokens; rotate via `/item/access_token/invalidate`.
-- [Resend](services/resend/) · Sending-access key bound to one verified domain.
-- [Salesforce](services/salesforce/) · JWT Bearer flow with per-agent certificate and minimum scopes.
-- [SendGrid](services/sendgrid/) · Custom (Restricted) access key with only `mail.send`.
-- [Shopify](services/shopify/) · Custom-app Admin API token, read-only where possible.
-- [Slack](services/slack/) · Bot tokens with granular scopes and 12h rotation.
-- [Stripe](services/stripe/) · Restricted API keys (RAKs) with per-resource Read/Write.
-- [Supabase](services/supabase/) · Secret key on the server, never the `service_role` JWT in agent reach.
-- [Twilio](services/twilio/) · Per-agent Subaccount + Restricted API key.
-- [Vercel](services/vercel/) · Team-scoped PATs with explicit expiry.
+- [Anthropic](https://platform.claude.com/docs/en/build-with-claude/workspaces) · Workspace-scoped keys, admin keys held separately. ([recipe](services/anthropic/))
+- [Cal.com](https://cal.com/docs/api-reference/v2/introduction) · OAuth client + managed-user access tokens (60m) and refresh (1y). ([recipe](services/cal-com/))
+- [Cloudflare](https://developers.cloudflare.com/fundamentals/api/get-started/create-token/) · API tokens with permission group, resource, IP, and TTL filters. ([recipe](services/cloudflare/))
+- [GitHub](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app-installation) · GitHub App installation tokens (1h, repo-scoped). ([recipe](services/github/))
+- [HubSpot](https://developers.hubspot.com/docs/guides/apps/private-apps/overview) · Private apps with minimum CRM scopes. ([recipe](services/hubspot/))
+- [Linear](https://linear.app/developers) · OAuth with actor authorization for revocable, attributed writes. ([recipe](services/linear/))
+- [Mailgun](https://documentation.mailgun.com/docs/mailgun/api-reference/send/mailgun/domain-keys) · Domain sending keys bound to one verified domain. ([recipe](services/mailgun/))
+- [Notion](https://developers.notion.com/docs/authorization) · Public OAuth integration with rotating refresh tokens. ([recipe](services/notion/))
+- [OpenAI](https://platform.openai.com/docs/guides/rbac) · Project-scoped service account keys with Restricted permissions. ([recipe](services/openai/))
+- [Pinecone](https://docs.pinecone.io/guides/projects/manage-api-keys) · Project-scoped API keys (granular roles require Standard+). ([recipe](services/pinecone/))
+- [Plaid](https://plaid.com/docs/api/items/) · Per-user Item access tokens; rotate via `/item/access_token/invalidate`. ([recipe](services/plaid/))
+- [Resend](https://resend.com/docs/dashboard/api-keys/introduction) · Sending-access key bound to one verified domain. ([recipe](services/resend/))
+- [Salesforce](https://help.salesforce.com/s/articleView?id=sf.remoteaccess_oauth_jwt_flow.htm) · JWT Bearer flow with per-agent certificate and minimum scopes. ([recipe](services/salesforce/))
+- [SendGrid](https://www.twilio.com/docs/sendgrid/ui/account-and-settings/api-keys) · Custom (Restricted) access key with only `mail.send`. ([recipe](services/sendgrid/))
+- [Shopify](https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/generate-app-access-tokens-admin) · Custom-app Admin API token, read-only where possible. ([recipe](services/shopify/))
+- [Slack](https://docs.slack.dev/authentication/tokens) · Bot tokens with granular scopes and 12h rotation. ([recipe](services/slack/))
+- [Stripe](https://docs.stripe.com/keys/restricted-api-keys) · Restricted API keys (RAKs) with per-resource Read/Write. ([recipe](services/stripe/))
+- [Supabase](https://supabase.com/docs/guides/api/api-keys) · Secret key on the server, never the `service_role` JWT in agent reach. ([recipe](services/supabase/))
+- [Twilio](https://www.twilio.com/docs/iam/api-keys) · Per-agent Subaccount + Restricted API key. ([recipe](services/twilio/))
+- [Vercel](https://vercel.com/docs/sign-in-with-vercel/scopes-and-permissions) · Team-scoped PATs with explicit expiry. ([recipe](services/vercel/))
 
 ## Patterns
 
