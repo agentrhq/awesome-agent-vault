@@ -31,4 +31,4 @@ Meta uses the rule internally as a gating policy for agent deployments. Open imp
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

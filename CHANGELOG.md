@@ -37,4 +37,5 @@ Gap-research pass. Added entries surfaced by GitHub MCP and Reddit MCP research 
 - CATEGORY-MAP.md positioning doc.
 - CONTRIBUTING.md with verification gates.
 
-[0.1.0]: https://github.com/agentrhq/awesome-agent-vault/releases/tag/v0.1.0
+[0.2.0]: https://github.com/agentrhq/awesome-agent-vault
+[0.1.0]: https://github.com/agentrhq/awesome-agent-vault

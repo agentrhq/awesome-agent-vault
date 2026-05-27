@@ -31,4 +31,4 @@ Multi-tenant agents that share a single session or process boundary can let one 
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

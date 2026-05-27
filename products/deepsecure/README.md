@@ -33,4 +33,4 @@ Smaller community than zeroid or Entra Agent ID. Evaluate the IAM model against 
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

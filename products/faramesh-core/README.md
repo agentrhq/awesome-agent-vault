@@ -33,4 +33,4 @@ Adds a policy language to the stack. Worthwhile only when the credential decisio
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

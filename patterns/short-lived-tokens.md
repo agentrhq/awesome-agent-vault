@@ -27,4 +27,4 @@ Auth0's published guidance is the most thorough public description. The same sha
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

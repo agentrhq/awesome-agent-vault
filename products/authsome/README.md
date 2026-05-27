@@ -38,7 +38,7 @@ Inside the running agent, calls to Linear go through the local proxy; the agent 
 ## Links
 
 - Repo: [github.com/agentrhq/authsome](https://github.com/agentrhq/authsome)
-- Docs: [authsome.dev](https://authsome.dev)
+- Docs: [authsome.ai](https://authsome.ai)
 - Latest release: v0.4.2 (2026-05-25)
 - License: MIT
 - Language: Python
@@ -49,4 +49,4 @@ This list is curated by Authsome. See [CATEGORY-MAP.md](../../CATEGORY-MAP.md) f
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

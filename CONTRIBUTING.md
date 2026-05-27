@@ -88,4 +88,4 @@ Content is published under [CC0 1.0 Universal](LICENSE). By opening a PR you agr
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

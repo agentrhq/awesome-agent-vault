@@ -38,4 +38,4 @@ The IDE extension cannot read shell environment variables, only the configured s
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

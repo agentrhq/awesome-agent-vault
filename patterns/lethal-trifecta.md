@@ -31,4 +31,4 @@ Claude Code separates the three legs by default in restricted modes: the sandbox
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

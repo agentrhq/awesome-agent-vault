@@ -33,4 +33,4 @@ License not declared on the public repo at time of writing. The execution-layer 
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

@@ -45,4 +45,4 @@ curl https://example.myshopify.com/admin/api/2026-04/products.json \
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

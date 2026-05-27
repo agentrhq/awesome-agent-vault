@@ -33,4 +33,4 @@ SPIFFE and RFC 8693 are heavyweight standards. Solo developers and small teams w
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

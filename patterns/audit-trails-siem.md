@@ -29,4 +29,4 @@ Microsoft Entra Agent ID treats each agent as a first-class principal. Sign-in a
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

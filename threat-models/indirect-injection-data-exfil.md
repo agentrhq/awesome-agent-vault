@@ -35,4 +35,4 @@ A widely reported 2026 incident: an AI assistant tied to a financial spreadsheet
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

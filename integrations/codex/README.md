@@ -39,4 +39,4 @@ The 1Password Environments MCP server (May 2026) wires `op://` references into C
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

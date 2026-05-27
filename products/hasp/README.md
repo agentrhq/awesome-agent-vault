@@ -34,4 +34,4 @@ License is not declared on the public repo at time of writing. Treat as source-a
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

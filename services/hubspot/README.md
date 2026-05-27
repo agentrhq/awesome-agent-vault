@@ -43,4 +43,4 @@ curl https://api.hubapi.com/crm/v3/objects/contacts \
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

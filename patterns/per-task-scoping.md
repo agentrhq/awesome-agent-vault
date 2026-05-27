@@ -25,8 +25,8 @@ Authsome ([products/authsome](../products/authsome/)) is the reference here. Eac
 
 ## Citation
 
-- [Authsome documentation](https://authsome.dev)
+- [Authsome documentation](https://authsome.ai)
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

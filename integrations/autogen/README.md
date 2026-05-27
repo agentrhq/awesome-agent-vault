@@ -32,4 +32,4 @@ Apply [patterns/subagent-non-inheritance](../../patterns/subagent-non-inheritanc
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

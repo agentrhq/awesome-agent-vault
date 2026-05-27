@@ -34,4 +34,4 @@ For non-trivial agent setups, wrap Aider in a credential proxy or `op run` to ke
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

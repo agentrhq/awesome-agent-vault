@@ -32,4 +32,4 @@ For tools that call third-party APIs, prefer a per-call credential broker over e
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

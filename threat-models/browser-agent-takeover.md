@@ -35,4 +35,4 @@ A reported 2026 finding: a zero-click prompt-injection vector against an agentic
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

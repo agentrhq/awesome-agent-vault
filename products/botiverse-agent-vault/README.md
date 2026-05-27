@@ -34,4 +34,4 @@ Maintenance has slowed. Last push was 2026-02-19. Suitable for prototypes; teams
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

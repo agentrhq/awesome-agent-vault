@@ -32,4 +32,4 @@ This closes a class of disclosure paths that pure outbound injection leaves open
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

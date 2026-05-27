@@ -33,4 +33,4 @@ Tied to the MCP SDK's evolution. Worth watching but small community at time of w
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

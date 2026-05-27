@@ -34,4 +34,4 @@ HCL adds a small learning curve. The Rust binary distribution requires a build s
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

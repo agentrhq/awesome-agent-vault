@@ -39,29 +39,29 @@ Products  Integr-   Services  Patterns  Threat models  Web
 
 ## Compatibility matrix
 
-Rows are products. Columns are agent platforms. Cells use a closed vocabulary: yes / partial / no / unknown. Footnotes carry nuance.
+Rows are products. Columns are agent platforms.
 
 | Product | Claude Code | Codex CLI | Cursor | Aider | Windsurf | LangChain | OpenAI Agents SDK | Mastra | Vercel AI SDK | Continue.dev |
 |---|---|---|---|---|---|---|---|---|---|---|
-| [1Password CLI](products/1password-cli/) | yes | yes [^op-codex] | partial | yes | partial | yes | yes | yes | yes | yes |
-| [Authsome](products/authsome/) | yes | yes | yes | yes | yes | partial | partial | partial | partial | yes |
-| [AWS Secrets Manager](products/aws-secrets-manager/) | partial | partial | partial | partial | partial | yes | yes | yes | yes | partial |
-| [Bitwarden Agent Access](products/bitwarden-agent-access/) | yes | partial | partial | no | no | partial | partial | no | no | no |
-| [Botiverse agent-vault](products/botiverse-agent-vault/) | partial | no | no | no | no | partial | no | no | no | no |
-| [Doppler](products/doppler/) | yes | yes | yes | yes | yes | yes | yes | yes | yes | yes |
-| [HashiCorp Vault](products/hashicorp-vault/) | partial | partial | partial | partial | partial | yes | yes | yes | yes | partial |
-| [Infisical Agent Vault](products/infisical-agent-vault/) | yes | partial | partial | partial | partial | partial | partial | partial | partial | partial |
-| [Keeper Agent Kit](products/keeper-agent-kit/) | yes | yes | yes | no | no | no | no | no | no | no |
-| [Kontext CLI](products/kontext-cli/) | yes | yes | yes | partial | partial | no | no | no | no | partial |
-| [LiteLLM Agent Platform](products/litellm-agent-platform/) | yes | yes | partial | partial | partial | yes | yes | partial | partial | partial |
-| [onecli](products/onecli/) | yes | yes | yes | partial | partial | partial | partial | partial | partial | partial |
-| [Pulumi ESC](products/pulumi-esc/) | yes | yes | yes | yes | yes | yes | yes | yes | yes | yes |
-| [SOPS](products/sops/) | partial | partial | partial | partial | partial | partial | partial | partial | partial | partial |
-| [Wirken](products/wirken/) | partial | partial | no | no | no | no | no | no | no | no |
+| [1Password CLI](products/1password-cli/) | ✅ | ✅ [^op-codex] | 🟡 | ✅ | 🟡 | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Authsome](products/authsome/) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | 🟡 | 🟡 | 🟡 | ✅ |
+| [AWS Secrets Manager](products/aws-secrets-manager/) | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | ✅ | ✅ | ✅ | ✅ | 🟡 |
+| [Bitwarden Agent Access](products/bitwarden-agent-access/) | ✅ | 🟡 | 🟡 | - | - | 🟡 | 🟡 | - | - | - |
+| [Botiverse agent-vault](products/botiverse-agent-vault/) | 🟡 | - | - | - | - | 🟡 | - | - | - | - |
+| [Doppler](products/doppler/) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [HashiCorp Vault](products/hashicorp-vault/) | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | ✅ | ✅ | ✅ | ✅ | 🟡 |
+| [Infisical Agent Vault](products/infisical-agent-vault/) | ✅ | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 |
+| [Keeper Agent Kit](products/keeper-agent-kit/) | ✅ | ✅ | ✅ | - | - | - | - | - | - | - |
+| [Kontext CLI](products/kontext-cli/) | ✅ | ✅ | ✅ | 🟡 | 🟡 | - | - | - | - | 🟡 |
+| [LiteLLM Agent Platform](products/litellm-agent-platform/) | ✅ | ✅ | 🟡 | 🟡 | 🟡 | ✅ | ✅ | 🟡 | 🟡 | 🟡 |
+| [onecli](products/onecli/) | ✅ | ✅ | ✅ | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 |
+| [Pulumi ESC](products/pulumi-esc/) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [SOPS](products/sops/) | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 |
+| [Wirken](products/wirken/) | 🟡 | 🟡 | - | - | - | - | - | - | - | - |
 
 [^op-codex]: 1Password Environments MCP server shipped a Codex-first integration in May 2026.
 
-Cell meanings: **yes** has a maintained adapter or first-party docs. **partial** can be wired in but requires custom glue. **no** has no public path. **unknown** the maintainer has not been asked.
+Cell meanings: ✅ maintained adapter or first-party docs. 🟡 can be wired in, requires custom glue. `-` no public path. `?` maintainer has not been asked.
 
 Products added during the 2026-05-27 gap research (AgentGuard, AWS Secrets Manager Agent, Composio, DeepSecure, earl, faramesh-core, hasp, jentic-mini, mcp-governance-sdk, mcp-secrets-plugin, psst, sigcli, zeroid) are pending matrix verification with their maintainers and not yet rendered above.
 
@@ -187,4 +187,4 @@ PRs welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) and [CATEGORY-MAP.md](CATEG
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs. Authsome is one of the products listed above. See [CATEGORY-MAP.md](CATEGORY-MAP.md) for how that is handled.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs. Authsome is one of the products listed above. See [CATEGORY-MAP.md](CATEGORY-MAP.md) for how that is handled.

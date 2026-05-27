@@ -33,4 +33,4 @@ Wrap Cline in a credential proxy (Authsome, Infisical Agent Vault, onecli) for a
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

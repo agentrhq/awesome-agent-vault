@@ -29,4 +29,4 @@ Infisical Agent Vault ([products/infisical-agent-vault](../products/infisical-ag
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

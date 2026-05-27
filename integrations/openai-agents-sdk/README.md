@@ -33,4 +33,4 @@ Ad hoc beyond the OpenAI key. For agents that call Stripe, GitHub, or other serv
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

@@ -29,4 +29,4 @@ Multi-agent systems where a parent agent executes on behalf of a subagent withou
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

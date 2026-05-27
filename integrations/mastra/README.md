@@ -33,4 +33,4 @@ The [Agent Authentication System template](https://mastra.ai/templates/agent-aut
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

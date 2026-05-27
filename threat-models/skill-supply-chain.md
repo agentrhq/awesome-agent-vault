@@ -36,4 +36,4 @@ A 2026 audit of agent skill ecosystems reported that a substantial fraction of p
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

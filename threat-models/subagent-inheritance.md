@@ -31,4 +31,4 @@ Spawned subagents inherit more privilege than their role needs. The harness give
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

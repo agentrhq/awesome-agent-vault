@@ -31,4 +31,4 @@ Stripe's RAK system in [services/stripe](../services/stripe/) is the cleanest do
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

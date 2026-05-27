@@ -33,4 +33,4 @@ Guardrails are detection-shaped. They reduce the blast radius of a slip but do n
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.

@@ -32,4 +32,4 @@ This is structurally different from "the agent holds a long-lived key." There is
 
 ---
 
-Curated by [Authsome](https://authsome.dev) · agent identity for third-party APIs.
+Curated by [Authsome](https://authsome.ai) · agent identity for third-party APIs.
