@@ -43,21 +43,21 @@ Rows are products. Columns are agent platforms.
 
 | Product | Claude Code | Codex CLI | Cursor | Aider | Windsurf | LangChain | OpenAI Agents SDK | Mastra | Vercel AI SDK | Continue.dev |
 |---|---|---|---|---|---|---|---|---|---|---|
-| [1Password CLI](products/1password-cli/) | ✅ | ✅ [^op-codex] | 🟡 | ✅ | 🟡 | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Authsome](products/authsome/) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | 🟡 | 🟡 | 🟡 | ✅ |
-| [AWS Secrets Manager](products/aws-secrets-manager/) | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [Bitwarden Agent Access](products/bitwarden-agent-access/) | ✅ | 🟡 | 🟡 | - | - | 🟡 | 🟡 | - | - | - |
-| [Botiverse agent-vault](products/botiverse-agent-vault/) | 🟡 | - | - | - | - | 🟡 | - | - | - | - |
-| [Doppler](products/doppler/) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [HashiCorp Vault](products/hashicorp-vault/) | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | ✅ | ✅ | ✅ | ✅ | 🟡 |
-| [Infisical Agent Vault](products/infisical-agent-vault/) | ✅ | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 |
-| [Keeper Agent Kit](products/keeper-agent-kit/) | ✅ | ✅ | ✅ | - | - | - | - | - | - | - |
-| [Kontext CLI](products/kontext-cli/) | ✅ | ✅ | ✅ | 🟡 | 🟡 | - | - | - | - | 🟡 |
-| [LiteLLM Agent Platform](products/litellm-agent-platform/) | ✅ | ✅ | 🟡 | 🟡 | 🟡 | ✅ | ✅ | 🟡 | 🟡 | 🟡 |
-| [onecli](products/onecli/) | ✅ | ✅ | ✅ | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 |
-| [Pulumi ESC](products/pulumi-esc/) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [SOPS](products/sops/) | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 |
-| [Wirken](products/wirken/) | 🟡 | 🟡 | - | - | - | - | - | - | - | - |
+| [1Password CLI](https://developer.1password.com/docs/cli/) | ✅ | ✅ [^op-codex] | 🟡 | ✅ | 🟡 | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Authsome](https://github.com/agentrhq/authsome) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 | 🟡 | 🟡 | 🟡 | ✅ |
+| [AWS Secrets Manager](https://docs.aws.amazon.com/secretsmanager/) | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | ✅ | ✅ | ✅ | ✅ | 🟡 |
+| [Bitwarden Agent Access](https://github.com/bitwarden/agent-access) | ✅ | 🟡 | 🟡 | - | - | 🟡 | 🟡 | - | - | - |
+| [Botiverse agent-vault](https://github.com/botiverse/agent-vault) | 🟡 | - | - | - | - | 🟡 | - | - | - | - |
+| [Doppler](https://github.com/DopplerHQ/cli) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [HashiCorp Vault](https://github.com/hashicorp/vault) | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | ✅ | ✅ | ✅ | ✅ | 🟡 |
+| [Infisical Agent Vault](https://github.com/Infisical/agent-vault) | ✅ | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 |
+| [Keeper Agent Kit](https://github.com/Keeper-Security/keeper-agent-kit) | ✅ | ✅ | ✅ | - | - | - | - | - | - | - |
+| [Kontext CLI](https://github.com/kontext-security/kontext-cli) | ✅ | ✅ | ✅ | 🟡 | 🟡 | - | - | - | - | 🟡 |
+| [LiteLLM Agent Platform](https://github.com/BerriAI/litellm-agent-platform) | ✅ | ✅ | 🟡 | 🟡 | 🟡 | ✅ | ✅ | 🟡 | 🟡 | 🟡 |
+| [onecli](https://github.com/onecli/onecli) | ✅ | ✅ | ✅ | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 |
+| [Pulumi ESC](https://github.com/pulumi/esc) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [SOPS](https://github.com/getsops/sops) | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 | 🟡 |
+| [Wirken](https://github.com/gebruder/wirken) | 🟡 | 🟡 | - | - | - | - | - | - | - | - |
 
 [^op-codex]: 1Password Environments MCP server shipped a Codex-first integration in May 2026.
 
