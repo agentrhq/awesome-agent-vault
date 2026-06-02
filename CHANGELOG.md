@@ -4,6 +4,22 @@ All notable changes to this list are recorded here. Star counts and last-release
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.3.0] - 2026-05-28
+
+Second gap-research pass. Mined GitHub MCP for MCP gateways, agent-IDP tooling, browser-agent primitives, and OAuth toolkit platforms. Mined the Authsome docs for unlisted service providers and Authsome integration runtimes.
+
+### Added
+
+- 10 new products: agentgateway, Arcade.dev, archestra, Casdoor, Docker MCP Gateway, Kong AI Gateway, metamcp, Microsoft Agent Governance Toolkit, Nango, snyk agent-scan.
+- 6 new integrations: browser-use, Crush, LlamaIndex, OpenCode, Plandex, Stagehand.
+- 15 new service recipes: Apollo, Atlassian, Buffer, Calendly, Discord, GitLab, Google Workspace, Intercom, Klaviyo, Mailchimp, Microsoft Graph, Postmark, Typeform, X (Twitter), Zapier.
+- 2 new patterns: Headless OAuth via device-code flow (RFC 8628), Multiple named connections per provider.
+- 3 new threat models: Offline disk-image theft, Process enumeration disclosure, Shell history exposure.
+
+### Pending
+
+- Compatibility matrix entries for the new products (need maintainer confirmation).
+
 ## [0.2.0] - 2026-05-27
 
 Gap-research pass. Added entries surfaced by GitHub MCP and Reddit MCP research that the initial subagents missed.
